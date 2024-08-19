@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font do site -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>CarrosSL'S</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <p class="logoHeader">Carros SL'S</p>
+    <nav>
+        <a href="#">Novos</a>
+        <a href="#">Usados</a>
+        <a href="#">Seminovos</a>
+        <a href="#">Peças</a>
+        <a href="#">Lojas</a>
+    </nav>
+
+    <div class="content-user" onclick="paginaLogin()">
+        <button class="user login">
+            <a href="#">Entrar</a>
+        </button>
+        <button class="user singu-up">
+            <a href="#">Inscreva-se</a>
+        </button>
+    </div>
+</header>
+
+<div class="banner">
+    <img src="./Orange and Black Vivid Bold Blocks Furniture and Decor Banner.png" alt="" srcset="">
+</div>
+
+<section id="destaque">
+    <div class="container">
+       
+
+        <!-- <div class="filtro">
+            <button onclick="filtrarCarros('todos')">Todos</button>
+            <button onclick="filtrarCarros('novos')">Novos</button>
+            <button onclick="filtrarCarros('usados')">Usados</button>
+        </div> -->
+        
+        <div class="carros">
+            <div class="carro " onclick="abrirNovaPagina()">
+                <img src="carro1.jpg" alt="Carro 1">
+                <h3>Dodge RAM</h3>
+                <p>Ano: 2023</p>
+                <p>De R$529.990 Por R$500.000</p>
+            </div>
+            <div class="carro" onclick="abrirNovaPagina2()">
+                <img src="carro2.jpg" alt="Carro 2">
+                <h3>Hyundai Azera</h3>
+                <p>Ano: 2016</p>
+                <p>De R$127.000 Por R$100.000</p>
+            </div>
+            <div class="carro" onclick="abrirNovaPagina3()">
+                <img src="carro3.jpg" alt="Carro 3">
+                <h3>Porsche Panamera</h3>
+                <p>Ano: 2021</p>
+                <p>De R$1.300.000 Por R$ 1.000.000</p>
+            </div>
+            <div class="carro" onclick="abrirNovaPagina4()">
+                <img src="carro4.jpg" alt="Carro 3">
+                <h3>Ferrari</h3>
+                <p>Ano: 2022</p>
+                <p>De R$2.000.000 Por R$1.900.000</p>
+            </div>
+            <div class="carro" onclick="abrirNovaPagina5()">
+                <img src="carro5.jpg" alt="Carro 3">
+                <h3>Jeep</h3>
+                <p>Ano: 2023</p>
+                <p>De R$500.000 Por R$470.000</p>
+            </div>
+            <div class="carro" onclick="abrirNovaPagina6()">
+                <img src="carro6.jpg" alt="Carro 3">
+                <h3>Corolla</h3>
+                <p>Ano: 2015</p>
+                <p>De R$100.000 Por R$90.000</p>
+            </div>
+            <div class="carro" onclick="abrirNovaPagina7()">
+                <img src="carro7.jpg" alt="Carro 3">
+                <h3>Jeep Buggy</h3>
+                <p>Ano: 2011</p>
+                <p>De R$25.000 POR R$20.000</p>
+            </div>
+            <div class="carro" onclick="abrirNovaPagina8()">
+                <img src="moto1.jpg" alt="Carro 3">
+                <h3>Damon Hyperfighter</h3>
+                <p>Ano: 2024</p>
+                <p>Preço: R$210.000</p>
+            </div>
+            <div class="carro" onclick="abrirNovaPagina9()">
+                <img src="moto2.jpg" alt="Carro 3">
+                <h3>Harley Davidson Fat Boy</h3>
+                <p>Ano: 2024</p>
+                <p>Preço: R$123.000</p>
+            </div>
+            <div class="carro" onclick="abrirNovaPagina10()">
+                <img src="moto3.jpg" alt="Carro 3">
+                <h3>X-MAX</h3>
+                <p>Ano: 2021</p>
+                <p>Preço: R$17.000</p>
+            </div>
+            <div class="carro" onclick="abrirNovaPagina11()">
+                <img src="moto4.jpg" alt="Carro 3">
+                <h3>Ferrari F355</h3>
+                <p>Ano: 1994</p>
+                <p>Preço: R$500.000</p>
+            </div>
+            <div class="carro" onclick="abrirNovaPagina12()">
+                <img src="caminhao1.jpg" alt="Carro 3">
+                <h3>Scania</h3>
+                <p>Ano: 2006</p>
+                <p>Preço: R$ 320.000</p>
+            </div>
+            <div class="carro" onclick="abrirNovaPagina13()">
+                <img src="jettsli.jpg" alt="Carro 3">
+                <h3>Jetski - A Sea Doo</h3>
+                <p>Ano: 2021</p>
+                <p>Preço: R$ 32.000</p>
+            </div>
+            <div class="carro" onclick="abrirNovaPagina14()">
+                <img src="navio.jpg" alt="Carro 3">
+                <h3>Cruzeiro - O Novo Titanic</h3>
+                <p>Ano: 2024</p>
+                <p>Preço: R$ 2.500.000.000</p>
+            </div>
+          
+        </div>
+    </div>
+</section>
+
+<section id="contato">
+    <div class="container">
+        <h2>Entre em Contato</h2>
+        <form action="enviar.php" method="POST">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="mensagem" placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Venda de Carros. Todos os direitos reservados.</p>
+    </div>
+</footer>
+<script>
+    function abrirNovaPagina(){
+        window.location.href = "./index2.html";
+    }
+</script>
+<script>
+    function abrirNovaPagina2(){
+        window.location.href = "./index3.html";
+    }
+</script>
+<script>
+    function abrirNovaPagina3(){
+        window.location.href = "./index4.html";
+    }
+</script>
+<script>
+    function abrirNovaPagina4(){
+        window.location.href = "./index5.html";
+    }
+</script>
+<script>
+    function abrirNovaPagina5(){
+        window.location.href = "./index6.html";
+    }
+</script>
+<script>
+    function abrirNovaPagina6(){
+        window.location.href = "./index7.html";
+    }
+</script>
+<script>
+    function abrirNovaPagina7(){
+        window.location.href = "./index8.html";
+    }
+</script>
+<script>
+    function abrirNovaPagina8(){
+        window.location.href = "./index9.html";
+    }
+</script>
+<script>
+    function abrirNovaPagina9(){
+        window.location.href = "./index10.html";
+    }
+</script>
+<script>
+    function abrirNovaPagina10(){
+        window.location.href = "./index11.html";
+    }
+</script>
+<script>
+    function abrirNovaPagina11(){
+        window.location.href = "./index12.html";
+    }
+</script>
+<script>
+    function abrirNovaPagina12(){
+        window.location.href = "./index13.html";
+    }
+</script>
+<script>
+    function abrirNovaPagina13(){
+        window.location.href = "./index14.html";
+    }
+</script>
+<script>
+    function abrirNovaPagina14(){
+        window.location.href = "./index15.html";
+    }
+</script>
+<script>
+    function paginaLogin(){
+        window.location.href = "./login.html";
+    }
+</script>
+</body>
+</html> 
+      

@@ -1,0 +1,189 @@
+*{ /*Raiz do documento, font principal*/
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+:root{
+    --color-vermelho: rgb(0, 0, 0);
+}
+/* ======topo da pagina===== */
+header {
+    background: #000;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logoHeader{
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.content-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.user{
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.login {
+    /* background: #ffffff; */
+    border-radius: 8px;
+    border: 2px solid  #ffffff;
+    padding: 5px 5px;
+    color: #ffffff;
+}
+
+.singu-up{
+    /*background: #ffffff;*/
+    border-radius: 8px;
+    border: 2px solid  #ffffff;
+    padding: 5px 5px;
+}
+.user a {
+     text-decoration: none;
+     color: #fff;
+     font-size: 18px;
+}
+
+nav{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+
+
+
+.banner img{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.filtro{
+ margin-bottom: 20px;   
+}
+
+/* Estilos para a seção de carros em destaque */
+
+#destaque {
+    background-color:#ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.carros {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.carro {
+    width: 30%;
+    padding: 20px;
+    margin: 5px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.carro img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.carro h3 {
+    margin: 10px 0;
+}
+
+.carro p {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+/* Estilos para a seção de contato */
+
+#contato {
+    background-color: #000000;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contato form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contato input[type="text"],
+#contato input[type="email"],
+#contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#contato textarea {
+    height: 150px;
+}
+
+#contato button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#contato button:hover {
+    background-color: #555;
+}
+
+/* Estilos para o rodapé */
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+h2{
+    color: #f9f9f9;
+}
