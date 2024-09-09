@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Loja de Carros</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+
+        input {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        input:focus {
+            border-color: #ff0000;
+            outline: none;
+            box-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+        }
+
+        button {
+            padding: 15px;
+            background-color: #ff0000;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #cc0000;
+        }
+
+        .already-registered {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .already-registered a {
+            color: #ff0000;
+            text-decoration: none;
+        }
+
+        .already-registered a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Cadastre-se</h2>
+        <form action="#" method="POST">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="confirma-senha">Confirme a Senha:</label>
+            <input type="password" id="confirma-senha" name="confirma-senha" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <div class="already-registered">
+            <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
